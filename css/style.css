@@ -113,7 +113,7 @@ svg {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--navyblue-color);
+  color: var(--iris-color);
   text-decoration: none;
   padding: 24px 0;
   transition-property: color;
@@ -137,8 +137,14 @@ svg {
   bottom: -1px;
   left: 0;
 }
-.nav-items-link.current::after {
+.nav-items-link .current::after {
   background-color: #fff;
+}
+.studio-link-element {
+  color: var(--navyblue-color);
+}
+.portfolio-link-element {
+  color: var(--navyblue-color);
 }
 .header-address {
   font-style: normal;
