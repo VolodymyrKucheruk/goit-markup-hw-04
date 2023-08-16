@@ -113,7 +113,7 @@ svg {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--iris-color);
+  color: #404bbf; 
   text-decoration: none;
   padding: 24px 0;
   transition-property: color;
@@ -130,7 +130,6 @@ svg {
   display: block;
   width: 100%;
   height: 4px;
-  color: var(--iris-color);
   background-color: var(--ocean-color);
   border-radius: 2px;
   position: absolute;
